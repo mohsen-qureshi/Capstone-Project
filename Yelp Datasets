@@ -33,5 +33,6 @@ setwd("D:/My Documents/Ryerson/CIND820++/yelpds")
 
 
 tip <- stream_in(file("yelp_academic_dataset_tip.json"))
+user <- stream_in(file("yelp_academic_dataset_user.json"))
 review <- stream_in(file("yelp_academic_dataset_review.json"))
 business <- stream_in(file("yelp_academic_dataset_business.json"))
